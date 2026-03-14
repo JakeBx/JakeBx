@@ -2,17 +2,18 @@
 
 Senior AI/ML practitioner with 10+ years building and deploying Generative AI and machine learning systems from prototype to production — across enterprise, financial services, and federal government. I specialise in the full lifecycle of AI/ML: architecture, deployment, security hardening, and extracting measurable business value at scale.
 
-Currently working as a Staff-level AI Engineer in the Australian federal government, leading enterprise AI/ML strategy and production deployment — overseeing LLM infrastructure, Workflow Automation, and cross-agency AI capability programmes.
+Currently working as a Staff-level AI Engineer in the Australian federal government, leading enterprise AI/ML strategy and production deployment — overseeing LLM infrastructure, workflow automation, and cross-agency AI capability programmes.
 
-Previously led high-impact production ML delivery at accross Government and large enterprise (large-scale fraud detection capability recovering more that $2B+ annually) and served as Principal Consultant at specialist consulting firm, managing enterprise AI engagements for clients including large banks, international government bodies, critical infrastrcuture, national security and service delivery.
+Previously led high-impact production ML delivery across government and large enterprise (large-scale fraud detection capability recovering more than $2B+ annually) and served as Principal Consultant at a specialist consulting firm, managing enterprise AI engagements for clients including large banks, international government bodies, critical infrastructure, national security, and service delivery.
 
 ---
 
 ### What I build
 
-- **Agentic AI systems** — multi-agent orchestration, tool use, evaluation harnesses
+- **Enterprise GenAI applications** — OpenAI API integrations, production prompt engineering, evaluation harnesses, customer-facing AI products
+- **Agentic AI systems** — multi-agent orchestration, tool use, code agents, automated reasoning pipelines
 - **RAG pipelines** — embedding generation, vector search, semantic retrieval at scale
-- **LLM deployment infrastructure** — secure inference, mTLS, ABAC, enterprise guardrails
+- **LLM deployment infrastructure** — secure inference, mTLS, ABAC, enterprise guardrails, streaming
 - **Workflow automation** — n8n, Python, comparative low-code/pro-code architectures
 - **ML at production scale** — NLP, computer vision, fraud detection, identity resolution
 
@@ -22,17 +23,19 @@ Previously led high-impact production ML delivery at accross Government and larg
 
 **[huggingface/smolagents](https://github.com/huggingface/smolagents)** (22k+ stars) — contributor. [PR #1420](https://github.com/huggingface/smolagents/pull/1420): added `reset_agent_memory` support in GradioUI, merged by the HuggingFace core team.
 
+**[n8n-nodes-mtls-openai](https://www.npmjs.com/package/n8n-nodes-mtls-openai)** — published npm package providing n8n community nodes for mTLS-authenticated connections to OpenAI-compatible inference endpoints. Solves a real enterprise gap: connecting workflow automation to LLMs behind certificate-authenticated proxies.
+
 ---
 
 ### Featured projects
 
 | Project | What it does |
 |---------|-------------|
-| [agentic-cti](https://github.com/JakeBx/agentic-cti) | Multi-agent threat intelligence system orchestrating specialised sub-agents (OpenCTI, OSINT, Wikipedia) using smolagents — with Hydra config management and an automated evaluation harness |
-| [alcohol-and-other-drugs-understanding](https://github.com/JakeBx/alcohol-and-other-drugs-understanding) | End-to-end RAG pipeline over medical literature — automated scraping, PGVector storage, Claude-powered chatbot, UMAP + topic modelling, interactive data map |
-| [n8n-mtls-inference](https://github.com/JakeBx/n8n-mtls-inference) | Custom n8n community nodes (TypeScript) providing mTLS-authenticated LLM inference — enabling secure, certificate-bound AI pipelines in enterprise environments |
-| [bellingcat-py](https://github.com/JakeBx/bellingcat-py) | Corpus analysis pipeline with entity relationship extraction, vector embeddings, and agentic semantic search — paired with an n8n equivalent for direct architectural comparison |
-| [hardened-llm-deployment](https://github.com/JakeBx/hardened-llm-deployment) | Deployment blueprint for ABAC + mTLS secured LLM inference — production-grade authentication patterns for enterprise AI infrastructure |
+| [agentic-cti](https://github.com/JakeBx/agentic-cti) | Multi-agent threat intelligence system orchestrating specialised sub-agents (OpenCTI, OSINT, Wikipedia) — Hydra config management, automated evaluation harness, Docker deployment |
+| [alcohol-and-other-drugs-understanding](https://github.com/JakeBx/alcohol-and-other-drugs-understanding) | End-to-end RAG pipeline over medical literature — automated scraping, PGVector storage, LLM-powered chatbot via OpenAI-compatible API, UMAP + topic modelling, interactive data map |
+| [n8n-nodes-mtls-openai](https://github.com/JakeBx/n8n-nodes-mtls-openai) | Published npm package: custom n8n nodes (TypeScript) providing mTLS-authenticated connections to OpenAI-compatible inference endpoints — chat model and embeddings sub-nodes for enterprise RAG pipelines |
+| [hardened-llm-deployment](https://github.com/JakeBx/hardened-llm-deployment) | Production deployment blueprint: ABAC + mTLS secured LLM inference on Kubernetes/KServe/Istio — streaming responses with pre-computed classification, async audit logging |
+| [bellingcat-py](https://github.com/JakeBx/bellingcat-py) | OSINT corpus analysis pipeline — entity relationship extraction, vector embeddings, agentic semantic search — paired with an n8n equivalent for direct pro-code vs low-code architectural comparison |
 
 ---
 
