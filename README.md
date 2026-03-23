@@ -21,6 +21,10 @@ Previously led high-impact production ML delivery across government and large en
 
 ### Open source
 
+**n8n-io/n8n** — open PR #27309: adds mTLS client certificate support to the OpenAI node family (+675 lines, 27 new test cases). Covers OpenAI Enterprise mTLS beta, self-hosted inference endpoints behind certificate-authenticated proxies, and custom CA bundles. Addresses a recurring community pain point for enterprise deployments.
+
+**anthropics/anthropic-sdk-python** — open PR #1280: adds a worked example (`examples/mtls.py`) demonstrating mTLS client certificate authentication and custom CA bundle configuration with the Anthropic SDK. No SDK code changes required — documents existing `http_client` capability that was previously undiscovered by enterprise users hitting proxy and certificate errors.
+
 **[huggingface/smolagents](https://github.com/huggingface/smolagents)** (22k+ stars) — contributor. [PR #1420](https://github.com/huggingface/smolagents/pull/1420): added `reset_agent_memory` support in GradioUI, merged by the HuggingFace core team.
 
 **[n8n-nodes-mtls-openai](https://www.npmjs.com/package/n8n-nodes-mtls-openai)** — published npm package providing n8n community nodes for mTLS-authenticated connections to OpenAI-compatible inference endpoints. Solves a real enterprise gap: connecting workflow automation to LLMs behind certificate-authenticated proxies.
