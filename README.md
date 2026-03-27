@@ -1,8 +1,8 @@
-## Jake L — AI/ML Engineer & Technical Leader
+## Jake L — AI/ML Engineer
 
-Senior AI/ML practitioner with 10+ years building and deploying Generative AI and machine learning systems from prototype to production — across enterprise, financial services, and federal government. I specialise in the full lifecycle of AI/ML: architecture, deployment, security hardening, and extracting measurable business value at scale.
+AI/ML practitioner with 10+ years building and deploying Generative AI and machine learning systems from prototype to production. I specialise in the full lifecycle of AI/ML: architecture, deployment, security hardening, and extracting measurable business value at scale. Extensive work with critical and regulated industries.
 
-Currently working as a Staff-level AI Engineer in the Australian federal government, leading enterprise AI/ML strategy and production deployment — overseeing LLM infrastructure, workflow automation, and cross-agency AI capability programmes.
+Currently working as a Staff-level AI Engineer in the Australian federal government, leading enterprise AI/ML strategy and production deployment. I oversee LLM infrastructure, workflow automation, and AI capability programmes.
 
 Previously led high-impact production ML delivery across government and large enterprise (large-scale fraud detection capability recovering more than $2B+ annually) and served as Principal Consultant at a specialist consulting firm, managing enterprise AI engagements for clients including large banks, international government bodies, critical infrastructure, national security, and service delivery.
 
@@ -13,7 +13,7 @@ Previously led high-impact production ML delivery across government and large en
 - **Enterprise GenAI applications** — OpenAI API integrations, production prompt engineering, evaluation harnesses, customer-facing AI products
 - **Agentic AI systems** — multi-agent orchestration, tool use, code agents, automated reasoning pipelines
 - **RAG pipelines** — embedding generation, vector search, semantic retrieval at scale
-- **LLM deployment infrastructure** — secure inference, mTLS, ABAC, enterprise guardrails, streaming
+- **Deployment infrastructure** — secure inference, mTLS, ABAC, enterprise guardrails, streaming
 - **Workflow automation** — n8n, Python, comparative low-code/pro-code architectures
 - **ML at production scale** — NLP, computer vision, fraud detection, identity resolution
 
@@ -45,9 +45,9 @@ Previously led high-impact production ML delivery across government and large en
 
 ### Stack
 
-**GenAI / LLMs:** OpenAI API · HuggingFace · smolagents · LangChain · RAG architectures · prompt engineering · ONNX · PyTorch
+**GenAI / LLMs:** OpenAI API · HuggingFace · smolagents · RAG architectures · prompt engineering · ONNX · PyTorch
 **Languages:** Python (advanced) · TypeScript · SQL · Bash
-**Infrastructure:** AWS · GCP · Azure · Docker · Kubernetes · PostgreSQL · PGVector
+**Infrastructure:** AWS · GCP · Azure · Docker · Kubernetes · PostgreSQL · PGVector · Ray 
 **AI security:** MITRE ATLAS · adversarial ML · differential privacy · ML red teaming
 
 ---
